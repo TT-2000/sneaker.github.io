@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Product details</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="./sanpham.html">Sản Phẩm</a>
+        <a class="cart-menu" href="./giohang.html">Giỏ Hàng</a>
+        <a href="./admin.html">Admin</a>
+    </div>
+    <h1>Chi tiết sản phẩm</h1>
+
+    <div class="product-detail">
+        <div class="product-detail-left">
+            <!-- <img class="product-detail_img" src="${productData.image}" alt="" srcset=""> -->
+        </div>
+        <div class="product-detail-right">
+            <div class="name-product">
+                <!-- <h2>${productData.title}</h2>
+                <p>Mã sản phẩm : <span>${productData.id}</span></p> -->
+            </div>
+            <div class="title-product">
+
+                <div class="product-detail_price">
+                    <!-- <p>Giá : <span>${convertPrice(productData.price)}</span> / vnđ</p> -->
+                </div>
+                <div class="product-detail_describe">
+                    <!-- <h3>Đắc điểm nổi bật :</h3>
+                    <p> ${productData.describe} -->
+                </div>
+
+                <div class="option">
+                    <div class="amount-product">
+                        <h3>Số lượng :</h3>
+                        <div class="btn_amount">
+                            <button class="prev">-</button>
+                            <span>1</span>
+                            <button class="next">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-detail_btn">
+                <button class="btn-buy_now">Mua ngay</button>
+                <button class="btn-add_cart">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toast-message">
+        <ul class="message">
+        </ul>
+    </div>
+    <script src="./javascript/detail-product.js" type="module"></script>
+
+
+</body>
+</html>
